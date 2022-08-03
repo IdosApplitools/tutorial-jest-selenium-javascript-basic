@@ -1,7 +1,5 @@
 'use strict'
-/**
- * @jest-environment-jsdom
- */
+
 const { Builder, By } = require('selenium-webdriver');
 const { Eyes, 
     ClassicRunner, 
@@ -9,7 +7,7 @@ const { Eyes,
     RectangleSize, 
     Configuration, 
     BatchInfo } = require('@applitools/eyes-selenium');
-const script = require('jest');
+
 
 describe('ACME Bank', () => {
     // This Mocha test case class contains everything needed to run a full visual test against the ACME bank site.
