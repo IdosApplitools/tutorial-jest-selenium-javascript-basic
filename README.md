@@ -1,6 +1,6 @@
-# Applitools Example: Selenium JavaScript Mocha with the Classic Runner
+# Applitools Example: Selenium JavaScript Jest with the Classic Runner
 
-This is the example project for the [Selenium JavaScript tutorial](https://applitools.com/tutorials/selenium-javascript.html).
+This is the example project for the [Jest Selenium JavaScript tutorial](https://applitools.com/tutorials/jest-selenium-javascript.html).
 It shows how to start automating visual tests
 with the [Applitools Eyes](https://applitools.com/platform/eyes/) classic runner
 using [Selenium WebDriver](https://www.selenium.dev/) in JavaScript.
@@ -11,7 +11,7 @@ It uses:
 * [Selenium WebDriver](https://www.selenium.dev/) for browser automation
 * [Google Chrome](https://www.google.com/chrome/downloads/) as the local browser for testing
 * [npm](https://www.npmjs.com/) for dependency management
-* [Mocha](https://mochajs.org/) as the core test framework
+* [Jest](https://jestjs.io/) as the core test framework
 * [Applitools Eyes](https://applitools.com/platform/eyes/) for visual testing
 
 To run this example project, you'll need:
@@ -23,7 +23,7 @@ To run this example project, you'll need:
 5. An up-to-date version of [Google Chrome](https://www.google.com/chrome/downloads/).
 6. A corresponding version of [ChromeDriver](https://chromedriver.chromium.org/downloads).
 
-The main test case is [`AcmeBankTests.test.js`](https://github.com/IdosApplitools/tutorial-selenium-javascript-basic/blob/redevelop/test/AcmeBankTests.test.js).
+The main test case is [`AcmeBankTests.test.js`](https://github.com/IdosApplitools/tutorial-jest-selenium-javascript-basic/blob/redevelop/test/AcmeBankTests.test.js).
 
 To execute tests, set the `APPLITOOLS_API_KEY` environment variable
 to your [account's API key](https://applitools.com/tutorials/getting-started/setting-up-your-environment.html),
@@ -34,4 +34,4 @@ npm test
 ```
 
 **For full instructions on running this project, take our
-[Selenium JavaScript tutorial](https://applitools.com/tutorials/selenium-javascript.html)!**
+[Jest Selenium JavaScript tutorial](https://applitools.com/tutorials/jest-selenium-javascript.html)!**
